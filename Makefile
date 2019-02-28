@@ -6,7 +6,7 @@
 #    By: mcancela <mcancela@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/12/07 08:21:12 by mcancela          #+#    #+#              #
-#    Updated: 2019/02/01 12:10:00 by mcancela         ###   ########.fr        #
+#    Updated: 2019/02/28 11:20:57 by mcancela         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -78,7 +78,8 @@ SRCS =	srcs/ft_atoi.c \
 		srcs/ft_strtrim.c \
 		srcs/ft_swap.c \
 		srcs/ft_tolower.c \
-		srcs/ft_toupper.c
+		srcs/ft_toupper.c \
+		srcs/ft_realloc.c
 
 OBJS = $(SRCS:.c=.o)
 CFLAGS = -c -Wall -Wextra -Werror -Iincludes
